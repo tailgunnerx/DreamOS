@@ -1,0 +1,30 @@
+# Gradle & Build outputs
+.gradle/
+.kotlin/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration & IDE
+local.properties
+*.iml
+.idea/
+.DS_Store
+Thumbs.db
+
+# Compiled binaries & signing keys
+*.apk
+*.ap_
+*.aab
+*.dex
+*.idsig
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.hprof
+.env
+.env.*
