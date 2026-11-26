@@ -1,8 +1,22 @@
+<p align="center">
+  <img src="assets/logo.png" width="180" alt="DreamOS Logo" />
+</p>
+
 # DreamOS
 
 PIN-encrypted revolving poster board, collage waterfall, and on-device cutout studio for Android.
 
 Built with **Kotlin** and **Jetpack Compose (Material 3)**, DreamOS lets you organize private visual boards ("shrines") protected by per-board zero-knowledge encryption, hardware-backed Android Keystore wrapping, and on-device AI subject segmentation.
+
+<p align="center">
+  <img src="assets/mockup_1_vault.png" width="31%" alt="Encrypted Shrines Home" />
+  &nbsp;
+  <img src="assets/mockup_2_board.png" width="31%" alt="Revolving Poster Board" />
+  &nbsp;
+  <img src="assets/mockup_3_editor.png" width="31%" alt="On-Device Cutout Studio" />
+</p>
+
+> *UI mockups — in-app screenshots are blocked at the OS level via `FLAG_SECURE` to prevent decrypted frames from leaking to disk.*
 
 ## Features
 
